@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Opensource.builders`,
-    author: `Junaid Kabani`,
-    description: `Find open-source alternatives to popular software`,
-    siteUrl: `https://opensource.builders/`,
+    title: `Opensource.godot`,
+    author: `K. S. Ernest (iFire) Lee`,
+    description: `Find open-source Godot Engine contributions`,
+    siteUrl: `https://github.com/fire/opensource.godot`,
     social: {
-      github: `junaid33`,
+      github: `fire`,
     },
   },
   plugins: [
@@ -95,22 +95,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: "gatsby-plugin-fathom",
-      options: {
-        // Fathom server URL. Defaults to `cdn.usefathom.com`
-        trackingUrl: "fathom-anjh.onrender.com",
-        // Unique site id
-        siteId: "IRCCY",
-        // Domain whitelist
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Opensource.builders`,
-        short_name: `Opensource.builders`,
+        name: `Opensource.godot`,
+        short_name: `Opensource.godot`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -120,11 +110,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography`,
-    //   },
-    // },
   ],
 }
