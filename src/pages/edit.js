@@ -33,21 +33,6 @@ const Index = ({ data, location }) => {
           id: Math.random().toString(36).substr(2, 9),
         }),
         fields: [
-          // {
-          //   label: "Main Application",
-          //   name: "main",
-          //   component: "text",
-          // },
-          // {
-          //   label: "Website",
-          //   name: "website",
-          //   component: "text",
-          // },
-          // {
-          //   label: "Logo URL",
-          //   name: "svg",
-          //   component: "text",
-          // },
           {
             label: "Commercial Apps",
             name: "commercial",
@@ -152,7 +137,7 @@ const Index = ({ data, location }) => {
 
   return (
     <>
-      <SEO title="Opensource.builders" />
+      <SEO title="Opensource.godot" />
       <Box
         bg="white"
         boxShadow="0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)"
@@ -167,10 +152,10 @@ const Index = ({ data, location }) => {
           >
             <Box py={5}>
               <Heading as="h2" size="lg">
-                Open-source alternatives
+                Open-source game assets
               </Heading>
               <Text fontSize="md" fontWeight={400} color="#939fae" mt={1}>
-                Find open-source alternatives for your favorite apps
+                Find open-source Godot Engine contributions
               </Text>
             </Box>
           </Box>
