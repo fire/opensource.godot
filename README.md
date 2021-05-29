@@ -1,8 +1,8 @@
 <h1 align="center">
-Opensource.builders
+Opensource.godot
 </h1>
 
-Opensource.builders is a website to find and request open-source alternatives to popular software you already use.
+Opensource.godot is a website to find and request open-source alternatives to popular software you already use.
 
 ## 🚀 Quick start
 
@@ -14,7 +14,7 @@ Opensource.builders is a website to find and request open-source alternatives to
 
     ```shell
     # clone this repo
-    git clone https://github.com/junaid33/opensource.builders
+    git clone https://github.com/fire/opensource.godot
     ```
 
 1.  **Start developing.**
@@ -35,7 +35,7 @@ Opensource.builders is a website to find and request open-source alternatives to
 
 To edit website online, check out the CodeSandbox:
 
-https://codesandbox.io/s/github/junaid33/opensource.builders
+https://codesandbox.io/s/github/fire/opensource.godot
 
 ## Want to add a open-source project?
 
@@ -43,7 +43,7 @@ There are 2 ways to add a new open-source project
 1. Go to http://localhost:8000/edit. You will see a blue pencil icon on the bottom left. When you click it, it opens TinaCMS. You can add comparisons and alternatives here and change the data on existing ones. Once done, the data is automatically saved and you can send a PR which I can preview and accept quickly.
 2. All the data is saved here:
 
-https://github.com/junaid33/opensource.builders/blob/master/content/alts/alts.json
+https://github.com/fire/opensource.godot/blob/master/content/alts/alts.json
 
 You can edit this JSON directly and send a PR if you don't want to run anything locally.
 

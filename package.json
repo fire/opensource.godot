@@ -1,11 +1,11 @@
 {
-  "name": "opensource.builders",
+  "name": "opensource.godot",
   "private": true,
-  "description": "Find open-source alternatives",
+  "description": "Find open-source Godot Engine contributions",
   "version": "0.1.0",
-  "author": "Junaid Kabani <junaidkabani3@gmail.com>",
+  "author": "K. S. Ernest (iFire) Lee",
   "bugs": {
-    "url": "https://github.com/junaid33/opensource.builders/issues"
+    "url": "https://github.com/fire/opensource.godot/issues"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
