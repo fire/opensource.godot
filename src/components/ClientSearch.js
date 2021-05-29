@@ -142,18 +142,7 @@ class Search extends Component {
         : this.props.mainInfo
 
     const categories = [
-      "E-commerce",
-      "Developer Tools",
-      "Social Media",
-      "Communication",
-      "Analytics",
-      "Password Managers",
-      "Form Builder",
-      "Cloud",
-      "Deployment",
-      "Product Management",
-      "Automation",
-      "CRM",
+      "Material Creation",
     ]
 
     const licenses = [
@@ -168,18 +157,10 @@ class Search extends Component {
     ]
 
     const languages = [
-      "GO",
-      "JS",
-      "PYTHON",
-      "PHP",
-      "ELIXIR",
-      "RUBY",
-      "C",
-      "C#",
+      "GDSCRIPT",
       "C++",
-      "SHELL",
-      "TS",
-      "PERL",
+      "RUST",
+      "C#"
     ]
 
     return (
